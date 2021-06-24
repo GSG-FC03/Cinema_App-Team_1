@@ -1,47 +1,59 @@
+@font-face {
+    font-family: 'Actor';
+    src: url('../Actor-Font/Actor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 html {
     background-color: #17082A;
 
 }
-body{
+html{
+    font-family: Actor;
+}
+article{
     background-color: #210F37;
-    margin: 60px 30px 0px 20px;
-    border-radius: 30px;
-    padding: 10px 0px 30px 30px  ;
-    -webkit-box-sizing: border-box; 
+    margin: 5vw 5vw 5vw 5vw;
+    border-radius: 8vw;
+    padding: 4vw 0vw 8vw 8vw  ;
+    box-sizing: border-box; 
+
 
 }
 h1{
     font-size: 23px;
     color: #fff;
-    margin-bottom: 2px;
+    margin-bottom: 1.3vw;
+    font-weight: normal;
+
 
 }
 p{
     color: #FFF;
     font-size: 20px;
-    -webkit-text-stroke: .4px black; 
+    -webkit-text-stroke: .04vw black; 
+    padding-right: 5vw;
 }
 h2{
     color: #ECBBDA;
     font-size: 15px;
     background-color: rgba(255, 255, 255, .1);
     backface-visibility:unset;
-    border-radius: 10px;
+    border-radius: 3vw;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 130px;
-    margin-right: 5px;
-    margin-bottom: 2px;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    width: 35vw;
+    margin-right: 2vw;
+    margin-bottom: .5vw;
     
 
 }
 
 .Cast{
-    margin-top: 40px;
+    margin-top: 10vw;
 }
 .Genre{
-    margin-top: 40px;
+    margin-top: 10vw;
 
 }
 .Cast-List{
@@ -56,4 +68,12 @@ h2{
 }
 a{
     color:#ECBBDA;
+}
+.Back-icon{
+    margin: 10vw 10vw 0vw 10vw;
+}
+button {
+    background-color: Transparent;
+    border: none;
+
 }
