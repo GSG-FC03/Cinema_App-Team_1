@@ -20,7 +20,7 @@ article{
 
 }
 h1{
-    font-size: 23px;
+    font-size: 6.1vw;
     color: #fff;
     margin-bottom: 1.3vw;
     font-weight: normal;
@@ -29,13 +29,13 @@ h1{
 }
 p{
     color: #FFF;
-    font-size: 20px;
+    font-size: 5.4vw;
     -webkit-text-stroke: .04vw black; 
     padding-right: 5vw;
 }
 h2{
     color: #ECBBDA;
-    font-size: 15px;
+    font-size: 4vw;
     background-color: rgba(255, 255, 255, .1);
     backface-visibility:unset;
     border-radius: 3vw;
@@ -75,5 +75,4 @@ a{
 button {
     background-color: Transparent;
     border: none;
-
 }
