@@ -1,0 +1,67 @@
+.Download.page {
+  font-family: "Actor", sans-serif;
+  background-color: #17082a;
+  margin: 0;
+  width: 375px;
+  height: 812px;
+}
+.header img {
+  width: 375px;
+}
+
+.Movie.name {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.38px;
+  margin: 10px;
+}
+
+.main.content {
+  color: white;
+}
+.Quality.section {
+  background-color: #17082a;
+  margin: 20px;
+  height: 189px;
+  letter-spacing: 0.38px;
+}
+.Movie.Quality {
+  opacity: 30%;
+}
+
+#Quality {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  height: 100px;
+  background: #200f37;
+  border-radius: 15px;
+
+}
+
+.Voice.acting {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.voice.style {
+  opacity: 30%;
+}
+
+.Download {
+  
+  background: #6644b8;
+  color: white;
+  border-radius: 30px;
+  height: 55px;
+  width: auto;
+  position: relative;
+}
+.Download h1 h2 {
+  font-size: 19px;
+}
+.download.size {
+  opacity: 30%;
+}
