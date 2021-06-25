@@ -1,67 +1,132 @@
-.Download.page {
+.Download-page {
   font-family: "Actor", sans-serif;
   background-color: #17082a;
   margin: 0;
-  width: 375px;
-  height: 812px;
+  /* width: 375px; */
+  /* height: 812px; */
 }
 .header img {
-  width: 375px;
+  width: 100%;
 }
 
-.Movie.name {
+
+.Movie-name {
   display: flex;
+  font-size: 6vw;
   align-items: center;
-  letter-spacing: 0.38px;
-  margin: 10px;
+  letter-spacing: 0.1vw;
+  margin: 11vw 2.5vw;
+  font-style: normal;
+  font-weight: normal;
 }
 
-.main.content {
+.main-content {
   color: white;
 }
-.Quality.section {
+.Quality-section {
   background-color: #17082a;
-  margin: 20px;
-  height: 189px;
+  margin: 4vw;
+  height: 50vw;
   letter-spacing: 0.38px;
 }
-.Movie.Quality {
+.Movie-Quality {
   opacity: 30%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+  letter-spacing: 0.2vw;
+
 }
 
-#Quality {
-  display: inline-block;
+.Quality-box-pick{
+display: flex;
+justify-content: space-between;
+/* width:88%; */
+margin: 0vw 2vw 0vw 9vw;
+}
+
+.Quality-box {
   text-decoration: none;
   text-align: center;
+  font-size: 4vw;
   color: white;
-  height: 100px;
+  height: 39vw;
+  width:23vw;
   background: #200f37;
-  border-radius: 15px;
+  border-radius: 5vw;
+  line-height: 36vw;
+ 
 
 }
 
-.Voice.acting {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
+.Quality-box:hover {
+border: solid 0.5vw #FF8FC6 ;
+
+
 }
 
-.voice.style {
-  opacity: 30%;
+.Voice-acting {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 0vw 8vw;
 }
+
+
+.languges-style{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 8vw 0vw;
+  font-size: 5vw;
+  font-style: normal;
+font-weight: normal;
+letter-spacing: -0.1vw;
+}
+
+
+/* ------------------How to control Checbox Style--------------- */
+.languges-style>input{
+opacity: 0.1;
+border: 0.2vw solid #FFFFFF;
+background-color:none;
+border-radius: 1vw;
+height: 8vw;
+width:8vw;
+}
+
+.languges-style>input:checked{
+  background-color:blue;
+  }
+
+/* ------------------------------------------- */
+
 
 .Download {
   
   background: #6644b8;
   color: white;
-  border-radius: 30px;
-  height: 55px;
-  width: auto;
-  position: relative;
+  border-radius: 5vw;
+  height: 15vw;
+  margin: 0vw 6.5vw;
+  padding-top: 2.5vw;
+  /* width: auto; */
+  /* position: relative; */
 }
-.Download h1 h2 {
-  font-size: 19px;
+
+.Download:hover {
+  background: #8464ce;
+  cursor: pointer;
+
+
 }
-.download.size {
+
+.Download>p {
+  font-size: 5vw;
+  text-align: center;
+  margin: 0vw;
+}
+
+#download-size {
   opacity: 30%;
+  font-size: 4vw;
 }
