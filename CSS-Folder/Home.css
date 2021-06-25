@@ -1,13 +1,3 @@
-/* @font-face {
-    font-family: Actor;
-    src: url(..\Images\Actor-Regular.ttf);
-  } */
-
-/* *{
-    font-family: actor, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-} */
-
 /* Gerneral Rules ----------------------------------- */
 
 body {
@@ -20,9 +10,13 @@ a:link {
   /* So no link underline  */
 }
 
-a:hover{
-  background-color: #ccbcf3;
+:root {
+  font-family: "Actor", sans-serif;
 }
+
+/* a:hover{
+  background-color: #ccbcf3;
+} */
 
 /* -------------------------------------End of General Rules */
 
@@ -39,6 +33,15 @@ a:hover{
   z-index: -2000;
 }
 
+.Gradient_Rect{
+  width: 100%;
+  height: 104vw;
+  position: absolute;
+  top: 50vw;
+  background: linear-gradient(180deg, rgba(23, 8, 42, 0) 0%, #17082a 100%);
+  z-index: -1999;
+}
+
 .Header-Spacebox {
   height: 45vw;
   width: 100%;
@@ -53,7 +56,7 @@ a:hover{
   height: 105vw;
   margin: 0vw;
   padding: 0vw 10vw;
-  background: linear-gradient(180deg, rgba(23, 8, 42, 0) 0%, #17082a 100%);
+
 }
 
 .Header-Home > h1 {
@@ -63,7 +66,6 @@ a:hover{
   margin: 3vw 0vw;
   padding: 0vw;
 
-  font-family:'Actor', sans-serif;
   letter-spacing: 0.418px;
   font-style: normal;
   font-weight: normal;
@@ -78,7 +80,6 @@ a:hover{
   margin: 3vw 0vw;
   padding: 0px;
 
-  font-family: 'Actor', sans-serif;
   font-style: normal;
   font-weight: normal;
   /* line-height: 25px; */
@@ -97,11 +98,21 @@ a:hover{
   line-height: 16vw;
   z-index: 500;
 
-  font-family: 'Actor', sans-serif;
   letter-spacing: 0.38px;
   font-style: normal;
   font-weight: normal;
 }
+
+.Header-Home > a:hover {
+  background-color:#8868d3;
+  cursor: pointer;
+}
+
+.Header-Home > a:active {
+  background-color:#a68ce4;
+  
+}
+
 
 /* -------------------------------Home Header End */
 
@@ -110,7 +121,7 @@ a:hover{
 .reaction-section {
   display: flex;
   justify-content: space-between;
-  padding: 6vw 10vw;
+  padding: 7vw 10vw;
   margin: 0px;
 }
 
@@ -122,6 +133,15 @@ a:hover{
   border-radius: 6vw;
   text-align: center;
   line-height: 20vw;
+}
+
+.reaction-section > a:Hover {
+  background-color: #3d245c;
+  cursor: pointer;
+}
+
+.reaction-section > a:active {
+  background-color: #593980;
 }
 
 .Download_icon,
@@ -137,7 +157,112 @@ a:hover{
 
 /* St of Rating Box ----------------------------------------- */
 
+.Rating-Box {
+  background-color: #210f37;
+  border-radius: 6vw;
+  height: 36vw;
+  margin: 0vw 4vw;
+  padding: 8vw;
+
+  font-style: normal;
+  letter-spacing: 0.38px;
+}
+
+.Top_Rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 0vw 0vw 5vw 0vw;
+}
+
+.Sub_Rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 4vw 0vw;
+}
+
+.Top_Rating_Stars {
+  color: #f79e44;
+  font-size: 6vw;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.Box_star:hover{
+font-size: 6.5vw;
+color: #eba967;
+/* text-shadow:2px 2px #805dac; */
+}
+
+.Box_star:active{
+  font-size: 6vw;
+  color: #b86717;
+  /* text-shadow:none; */
+  }
 
 
+
+/* .Mask_Rec{
+  background-color:#815325;
+  position: absolute;
+  top:12vw;
+  left: 30vw;
+  height: 15vw;
+  width: 30vw;
+
+} */
+
+.Top_Rating_Value {
+  color: #f79e44;
+  font-size: 6vw;
+  margin: 0vw;
+}
+
+.Sub_Rating_Subject {
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 5vw;
+  margin: 0vw;
+}
+
+.Sub_Rating_Value {
+  color: #ffffff;
+  font-size: 5vw;
+  margin: 0vw;
+}
 
 /* -----------------------------------------------End of Rating Box  */
+
+/* Start of Location& Time Box ----------------------------------------- */
+
+.Location-Time_Box {
+  background-color: #210f37;
+  border-radius: 6vw;
+  height: 50vw;
+  margin: 4vw 4vw;
+  padding: 8vw;
+  font-style: normal;
+  letter-spacing: 0.38px;
+  font-weight: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.Location-Time_Box_Icon {
+  color: #f79e44;
+  font-size: 6vw;
+  margin: 0vw 4vw 5vw 0vw;
+}
+
+.Location-Time_Box_Subject {
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 5vw;
+  margin: 0vw 0vw 4vw 0vw;
+  width: 84%;
+  text-align: left;
+}
+
+/* -------------------------------------------------------End of Location& Time Box */

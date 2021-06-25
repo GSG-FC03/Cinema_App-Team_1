@@ -5,19 +5,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- this is for icons -->
     <script
       src="https://kit.fontawesome.com/52e67ff79e.js"
       crossorigin="anonymous"
     ></script>
-    
-    <!-- This is for fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
 
-    <!-- Link CSS -->
+    <!-- This is for linking Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Actor&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Linking CSS -->
     <link rel="stylesheet" href="..\CSS-Folder\Home.css" />
 
     <!-- Tile Name -->
@@ -27,12 +30,13 @@
     <!-- Home Header St ------------------------------------------->
 
     <img class="header-img" src="..\Images\image-12.png" />
+    <rect class="Gradient_Rect"></rect>
 
     <section class="Header-Spacebox"></section>
     <section class="Header-Home">
       <h1>Bohemian Rhapsody</h1>
       <h2>Drama, Music</h2>
-      <a href="#">Description</a>
+      <a >Description</a>
       <!-- <a href=Movie_info.html>Description</a> -->
     </section>
 
@@ -40,33 +44,71 @@
 
     <!-- Reaction Section St. --------------------------------- -->
     <section class="reaction-section">
-      <a class="Download_icon" href="#"> <i class="fas fa-arrow-down"></i> </a>
-      <a class="Love_icon" href="#"> <i class="far fa-heart"></i> </a>
-      <a class="Share_icon" href="#"> <i class="fas fa-share"></i> </a>
+      <a class="Download_icon" > <i class="fas fa-arrow-down"></i> </a>
+      <a class="Love_icon" > <i class="far fa-heart"></i> </a>
+      <a class="Share_icon" > <i class="fas fa-share"></i> </a>
     </section>
 
     <!-------------------------------------Reaction Section End -->
 
     <!-- St of Rating Box ----------------------------------------- -->
     <section class="Rating-Box">
-    <article>
-        <div>
+        <article class="Top_Rating">
+        <div class="Top_Rating_Stars">
+          <i class="fas fa-star Box_star"></i>
+          <i class="fas fa-star Box_star"></i>
+          <i class="fas fa-star Box_star"></i>
+          <i class="fas fa-star Box_star"></i>
+          <i class="fas fa-star Box_star"></i>
+          <!-- <div class="Mask_Rec"></div> -->
 
         </div>
-        <li>8.6</li>
-    </article>
-    <article>
-        <li>IMDB</li><li>8.7</li>
-    </article>
-    <article>
-        <li>Poster</li><li>8.4</li>
-    </article>
-    <article>
-        <li>Cinema search</li><li>8.8</li>
-    </article>
-
+        <p class="Top_Rating_Value">8.6</p>
+      </article>
+     
+      <article class="Sub_Rating">
+        <p class="Sub_Rating_Subject">IMDB</p>
+        <p class="Sub_Rating_Value">8.7</p>
+      </article class="Sub_Rating">
+      <article class="Sub_Rating">
+        <p class="Sub_Rating_Subject">Poster</p>
+        <p class="Sub_Rating_Value">8.4</p>
+      </article >
+      <article article class="Sub_Rating">
+        <p class="Sub_Rating_Subject">Cinema search</p>
+        <p class="Sub_Rating_Value">8.8</p>
+      </article>
     </section>
 
     <!-- -----------------------------------------------End of Rating Box -->
+
+
+     <!-- Start of Location& Time Box ------------------------------------------------ -->
+<section class="Location-Time_Box">
+
+  <i class="far fa-calendar Location-Time_Box_Icon"></i>
+  <P class="Location-Time_Box_Subject">2018</P>
+  
+
+  <i class="fas fa-globe-africa Location-Time_Box_Icon"></i>
+  <P class="Location-Time_Box_Subject">USA</P>
+
+  <i class="far fa-clock Location-Time_Box_Icon"></i>
+  <P class="Location-Time_Box_Subject">125</P>
+
+  <i class="fas fa-volume-down Location-Time_Box_Icon"></i>
+  <P class="Location-Time_Box_Subject">Rus | En</P>
+
+</section>
+
+
+
+
+
+
+     <!-- -------------------------------------------------------End of Location& Time Box -->
+
+
+
   </body>
 </html>
