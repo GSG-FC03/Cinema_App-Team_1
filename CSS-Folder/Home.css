@@ -33,7 +33,7 @@ a:link {
   z-index: -2000;
 }
 
-.Gradient_Rect{
+.Gradient_Rect {
   width: 100%;
   height: 104vw;
   position: absolute;
@@ -56,7 +56,6 @@ a:link {
   height: 105vw;
   margin: 0vw;
   padding: 0vw 10vw;
-
 }
 
 .Header-Home > h1 {
@@ -104,15 +103,13 @@ a:link {
 }
 
 .Header-Home > a:hover {
-  background-color:#8868d3;
+  background-color: #8868d3;
   cursor: pointer;
 }
 
 .Header-Home > a:active {
-  background-color:#a68ce4;
-  
+  background-color: #a68ce4;
 }
-
 
 /* -------------------------------Home Header End */
 
@@ -135,7 +132,7 @@ a:link {
   line-height: 20vw;
 }
 
-.reaction-section > a:Hover {
+.reaction-section > a:hover {
   background-color: #3d245c;
   cursor: pointer;
 }
@@ -188,19 +185,17 @@ a:link {
   width: 60%;
 }
 
-.Box_star:hover{
-font-size: 6.5vw;
-color: #eba967;
-/* text-shadow:2px 2px #805dac; */
+.Box_star:hover {
+  font-size: 6.5vw;
+  color: #eba967;
+  /* text-shadow:2px 2px #805dac; */
 }
 
-.Box_star:active{
+.Box_star:active {
   font-size: 6vw;
   color: #b86717;
   /* text-shadow:none; */
-  }
-
-
+}
 
 /* .Mask_Rec{
   background-color:#815325;
@@ -266,3 +261,132 @@ color: #eba967;
 }
 
 /* -------------------------------------------------------End of Location& Time Box */
+
+/* Start of Responsive for IPAD width:600px ---------------------------------------*/
+@media (min-width: 600px) and (max-width: 999px) {
+  .header-img{
+    top:-28vw;
+  }
+
+  .Gradient_Rect{
+    top:20vw;
+  }
+  
+  
+  .Header-Spacebox {
+    height: 0;
+  }
+
+  .Header-Home {
+    height: 101vw;
+  }
+}
+/* -----------------------------------End of  Responsive Deisgn for IPAD width:768px -*/
+
+/* Start of Responsive for Desktop:1000px ---------------------------------------*/
+
+@media (min-width: 1000px) {
+  .header-img {
+    top: -55vw;
+  }
+
+  .Gradient_Rect {
+    top: -5vw;
+  }
+
+  .Header-Spacebox {
+    height: 0vw;
+  }
+
+  .Header-Home {
+    height: 40vw;
+  }
+
+  .Header-Home > h1 {
+    font-size: 7vw;
+  }
+
+  .Header-Home > h2 {
+    font-size: 4.5vw;
+  }
+
+  .Header-Home > a {
+    width: 36%;
+    height: 8vw;
+    border-radius: 2vw;
+    font-size: 3vw;
+    line-height: 8vw;
+  }
+
+  .reaction-section {
+    justify-content: flex-start;
+    padding: 5vw 10vw;
+  }
+
+  .reaction-section > a {
+    width: 13%;
+    height: 10vw;
+    font-size: 4vw;
+    border-radius: 3vw;
+    line-height: 10vw;
+    margin: 0vw 2vw 0vw 0vw;
+  }
+
+  .Rating-Box {
+    border-radius: 4vw;
+    height: 19vw;
+    padding: 4vw;
+    width: 36vw;
+    float: left;
+  }
+
+  .Top_Rating {
+    margin: 0vw 0vw 2vw 0vw;
+  }
+
+  .Top_Rating_Stars {
+    font-size: 4vw;
+    width: 65%;
+  }
+
+  .Box_star:hover {
+    font-size: 4.5vw;
+  }
+
+  .Top_Rating_Value {
+    font-size: 4vw;
+  }
+
+  .Sub_Rating {
+    margin: 1vw 0vw;
+  }
+
+  .Sub_Rating_Value {
+    font-size: 3vw;
+  }
+
+  .Sub_Rating_Subject {
+    font-size: 3vw;
+  }
+
+  .Location-Time_Box {
+    border-radius: 4vw;
+    height: 19vw;
+    margin: 0vw 4vw;
+    padding: 4vw;
+  }
+
+  .Location-Time_Box_Icon {
+    font-size: 4vw;
+    margin: 0vw 4vw 1.5vw 0vw;
+  }
+
+  .Location-Time_Box_Subject {
+    font-size: 3vw;
+    margin: 0vw 0vw 0vw 0vw;
+    width: 60%;
+    text-align: left;
+  }
+}
+
+/* -----------------------------------End of  Responsive Deisgn for Desktop:1000px -*/
