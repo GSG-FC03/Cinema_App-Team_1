@@ -3,6 +3,11 @@
     src: url('../Actor-Font/Actor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
+path:hover{
+
+fill: #eeff00;
+}
+
 html {
     background-color: #17082A;
 
@@ -40,13 +45,11 @@ h2{
     backface-visibility:unset;
     border-radius: 3vw;
     text-align: center;
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
+    padding:2.5vw 8vw 2.5vw 8vw ;
     width: auto;
     margin-right: 2vw;
     margin-bottom: .5vw;
-    padding-left: 8vw;
-    padding-right: 8vw;
+
 }
 
 .Director h2{
@@ -71,13 +74,124 @@ h2{
     flex-wrap: wrap;
 
 }
+
+.Director div{
+    margin-top: 3vw;
+
+}
 a{
     color:#ECBBDA;
 }
+a:hover{
+    color:#eeff00;
+
+}
+
 .Back-icon{
     margin: 10vw 10vw 0vw 10vw;
 }
+
+
 button {
     background-color: Transparent;
     border: none;
 }
+
+svg {
+    margin-top: 1vw;
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+
+    article{
+        margin: 0vw 5vw 5vw 5vw;
+        padding: 4vw 0vw 8vw 8vw  ;
+        box-sizing: border-box; 
+    }
+    h1{
+        font-size: 5vw;
+        margin-bottom: 1.3vw;
+        font-weight: normal;
+    
+    
+    }
+    p{
+        font-size: 3.5vw;
+        padding-right: 5vw;
+    }
+    h2{
+        font-size: 3vw;
+
+        margin-right: 2vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    
+    .Director h2{
+        width: 15vw;
+        margin-top: 1.3vw;
+
+    }
+
+    svg {
+        margin-top: -3vw;
+    }
+  }
+
+@media (min-width: 320px) and (max-width: 548px), (max-width: 375px), (max-width: 768px) {
+    svg {
+        margin-top: -2vw;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .Director h2{
+        width: 25vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    article{
+        margin: -2vw 5vw 5vw 5vw;
+        padding: 4vw 0vw 8vw 8vw  ;
+        box-sizing: border-box; 
+    }
+    h1{
+        font-size: 4vw;
+        margin-bottom: 1.3vw;
+        font-weight: normal;
+    }
+    p{
+        font-size: 2.5vw;
+        padding-right: 5vw;
+    }
+    h2{
+        font-size: 2vw;
+
+        margin-right: 2vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    .Director {
+        margin-top: 2vw;
+    }
+    .Cast{
+        margin-top: 2vw;
+    }
+    .Genre{
+        margin-top: 2vw;
+    
+    }
+    
+    .Director h2{
+        width: 15vw;
+    }
+
+    svg {
+        margin-top: -5vw;
+    }
+
+  }
