@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Actor';
+    font-family: "Actor";
     src: url('../Actor-Font/Actor-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
@@ -7,20 +7,20 @@ html {
     background-color: #17082A;
 
 }
+
 html{
     font-family: Actor;
 }
+
 article{
     background-color: #210F37;
     margin: 5vw 5vw 5vw 5vw;
     border-radius: 8vw;
     padding: 4vw 0vw 8vw 8vw  ;
     box-sizing: border-box; 
-
-
 }
 h1{
-    font-size: 23px;
+    font-size: 6.1vw;
     color: #fff;
     margin-bottom: 1.3vw;
     font-weight: normal;
@@ -28,26 +28,31 @@ h1{
 
 }
 p{
-    color: #FFF;
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);;
+    font-size: 5.4vw;
     -webkit-text-stroke: .04vw black; 
     padding-right: 5vw;
 }
 h2{
     color: #ECBBDA;
-    font-size: 15px;
+    font-size: 4vw;
     background-color: rgba(255, 255, 255, .1);
     backface-visibility:unset;
     border-radius: 3vw;
     text-align: center;
     padding-top: 2.5vw;
     padding-bottom: 2.5vw;
-    width: 35vw;
+    width: auto;
     margin-right: 2vw;
     margin-bottom: .5vw;
-    
-
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
+
+.Director h2{
+    width: 30vw;
+}
+
 
 .Cast{
     margin-top: 10vw;
@@ -75,5 +80,4 @@ a{
 button {
     background-color: Transparent;
     border: none;
-
 }
