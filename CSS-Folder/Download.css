@@ -1,0 +1,276 @@
+.Download-page {
+  font-family: "Actor", sans-serif;
+  background-color: #17082a;
+  margin: 0;
+  /* width: 375px; */
+  /* height: 812px; */
+}
+.header img {
+  width: 100%;
+}
+
+
+.Movie-name {
+  display: flex;
+  font-size: 6vw;
+  align-items: center;
+  letter-spacing: 0.1vw;
+  margin: 11vw 2.5vw;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main-content {
+  color: white;
+}
+.Quality-section {
+  /* background-color: #17082a; */
+  margin: 4vw;
+  height: 50vw;
+  letter-spacing: 0.38px;
+}
+.Movie-Quality {
+  opacity: 30%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+  letter-spacing: 0.2vw;
+
+}
+
+.Quality-box-pick{
+display: flex;
+justify-content: space-between;
+/* width:88%; */
+margin: 0vw 2vw 0vw 9vw;
+}
+
+.Quality-box {
+  text-decoration: none;
+  text-align: center;
+  font-size: 4vw;
+  color: white;
+  height: 39vw;
+  width:23vw;
+  background: #200f37;
+  border-radius: 5vw;
+  line-height: 36vw;
+ 
+
+}
+
+.Quality-box:hover {
+border: solid 0.5vw #FF8FC6 ;
+
+
+}
+
+.Voice-acting {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin: 0vw 8vw;
+}
+
+
+.languges-style{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 8vw 0vw;
+  font-size: 5vw;
+  font-style: normal;
+font-weight: normal;
+letter-spacing: -0.1vw;
+}
+
+
+/* ------------------How to control Checbox Style--------------- */
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 10vw; /*the box width */
+  height: 10vw; /*the box height */
+  border: .01vw solid rgb(255, 255, 255);  /*the box-border weight */
+  
+  border-radius: 3vw;
+  opacity: 0.1;
+
+}
+
+/* For the box after check (not the arrow) */
+input[type=checkbox]:checked {
+  background-color: #5442B6;
+  opacity: 1;
+  border: none;
+  color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 1.5vw;
+
+}
+
+input[type=checkbox]:checked:after {
+  
+  width: 2vw; /*the ✔ sign length */
+  height: 4vw;    /*the ✔ sign length */
+  border: solid white;
+  border-width: 0 0.8vw 0.8vw 0; /*the ✔ sign weight */
+
+  -webkit-transform: rotate(45deg); /*rotation to make ✔ sign  */
+  -moz-transform: rotate(45deg);/*rotation to make ✔ sign  */
+  -ms-transform: rotate(45deg);/*rotation to make ✔ sign  */
+  transform: rotate(45deg); /*rotation to make ✔ sign  */
+
+  content: ""; /*what to type after click */
+  display: inline-block;
+
+
+}
+
+/* ------------------------------------------- */
+
+
+.Download {
+  
+  background: #6644b8;
+  color: white;
+  border-radius: 5vw;
+  height: 15vw;
+  margin: 0vw 6.5vw;
+  padding-top: 2.5vw;
+  /* width: auto; */
+  /* position: relative; */
+}
+
+.Download:hover {
+  background: #8464ce;
+  cursor: pointer;
+
+
+}
+
+.Download>p {
+  font-size: 5vw;
+  text-align: center;
+  margin: 0vw;
+}
+
+#download-size {
+  opacity: 30%;
+  font-size: 4vw;
+}
+
+/* ------------------------------------------------------------- */
+@media (min-width: 1000px) {
+
+.header img {
+  position: absolute;
+  z-index: -200;
+  top:0vw;
+}
+
+.Movie-Quality{
+  margin-top: 22vw;
+  /* margin-left:3vw; */
+}
+
+
+.Quality-box-pick{
+  display: flex;
+  justify-content: flex-start;
+  /* width:88%; */
+  margin: 0vw 2vw 0vw 9vw;
+  }
+  
+  .Quality-box {
+    text-decoration: none;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    height: 25vw;
+    width:16vw;
+    background: #200f37;
+    border-radius: 5vw;
+    line-height: 22vw;
+    margin-right: 5vw;
+  }
+    
+  .Quality-section{
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+    height: 20vw;
+  }
+
+  .Voice-acting{
+    /* font-size: 2vw; */
+  }
+
+  .languges-style{
+    margin:0vw;
+    font-size: 4vw;
+    justify-content: flex-start;
+  }
+
+  label{
+    width:20vw;
+  }
+
+  input[type=checkbox] {
+
+height: 4vw;
+width: 4vw;
+border-radius: 1vw;
+  }
+
+
+  input[type=checkbox]:checked {
+  
+    padding-top: 0.5vw;
+  }
+
+input[type=checkbox]:checked:after {
+  
+  width: 1vw; /*the ✔ sign length */
+  height: 2vw;    /*the ✔ sign length */
+  border: solid white;
+  border-width: 0 0.5vw 0.5vw 0; /*the ✔ sign weight */
+  /* padding-top: 0.2vw; */
+
+ 
+
+}
+
+.a:visited{
+  text-decoration: none;
+}
+
+.a:visited{
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+  .Download{
+    margin-top: 5vw;
+    width: 50vw;
+    height: 8vw;
+    border-radius: 2vw;
+    /* font-size: 2vw;
+     */
+  }
+
+
+.Download>p{
+  font-size: 3vw;
+}
+
+#download-size{
+  font-size: 2vw;
+}
+
+  
+}
