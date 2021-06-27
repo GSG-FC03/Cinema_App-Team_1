@@ -26,10 +26,7 @@ The code is required to work on iphone x (375px width) devices and to be respons
     6. Unifying units among the team.
 5. The team conducted a retrospective meeting and merged accepted and reviewed pages.
 6. The team then refined CSS Design again to be responsive to desktop.
-7. 
-8. 
-9. 
-10. 
+
 
 
 
