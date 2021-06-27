@@ -85,18 +85,50 @@ letter-spacing: -0.1vw;
 
 
 /* ------------------How to control Checbox Style--------------- */
-.languges-style>input{
-opacity: 0.1;
-border: 0.2vw solid #FFFFFF;
-background-color:none;
-border-radius: 1vw;
-height: 8vw;
-width:8vw;
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 10vw; /*the box width */
+  height: 10vw; /*the box height */
+  border: .01vw solid rgb(255, 255, 255);  /*the box-border weight */
+  
+  border-radius: 3vw;
+  opacity: 0.1;
+
 }
 
-.languges-style>input:checked{
-  background-color:blue;
-  }
+/* For the box after check (not the arrow) */
+input[type=checkbox]:checked {
+  background-color: #5442B6;
+  opacity: 1;
+  border: none;
+  color:rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 1.5vw;
+
+}
+
+input[type=checkbox]:checked:after {
+  
+  width: 2vw; /*the ✔ sign length */
+  height: 4vw;    /*the ✔ sign length */
+  border: solid white;
+  border-width: 0 0.8vw 0.8vw 0; /*the ✔ sign weight */
+
+  -webkit-transform: rotate(45deg); /*rotation to make ✔ sign  */
+  -moz-transform: rotate(45deg);/*rotation to make ✔ sign  */
+  -ms-transform: rotate(45deg);/*rotation to make ✔ sign  */
+  transform: rotate(45deg); /*rotation to make ✔ sign  */
+
+  content: ""; /*what to type after click */
+  display: inline-block;
+
+
+}
 
 /* ------------------------------------------- */
 
@@ -129,4 +161,11 @@ width:8vw;
 #download-size {
   opacity: 30%;
   font-size: 4vw;
+}
+
+
+@media (min-width: 600px) and (max-width: 999px) {
+
+
+  
 }
