@@ -24,7 +24,7 @@
   color: white;
 }
 .Quality-section {
-  background-color: #17082a;
+  /* background-color: #17082a; */
   margin: 4vw;
   height: 50vw;
   letter-spacing: 0.38px;
@@ -163,9 +163,114 @@ input[type=checkbox]:checked:after {
   font-size: 4vw;
 }
 
+/* ------------------------------------------------------------- */
+@media (min-width: 1000px) {
 
-@media (min-width: 600px) and (max-width: 999px) {
+.header img {
+  position: absolute;
+  z-index: -200;
+  top:0vw;
+}
 
+.Movie-Quality{
+  margin-top: 22vw;
+  /* margin-left:3vw; */
+}
+
+
+.Quality-box-pick{
+  display: flex;
+  justify-content: flex-start;
+  /* width:88%; */
+  margin: 0vw 2vw 0vw 9vw;
+  }
+  
+  .Quality-box {
+    text-decoration: none;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    height: 25vw;
+    width:16vw;
+    background: #200f37;
+    border-radius: 5vw;
+    line-height: 22vw;
+    margin-right: 5vw;
+  }
+    
+  .Quality-section{
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+    height: 20vw;
+  }
+
+  .Voice-acting{
+    /* font-size: 2vw; */
+  }
+
+  .languges-style{
+    margin:0vw;
+    font-size: 4vw;
+    justify-content: flex-start;
+  }
+
+  label{
+    width:20vw;
+  }
+
+  input[type=checkbox] {
+
+height: 4vw;
+width: 4vw;
+border-radius: 1vw;
+  }
+
+
+  input[type=checkbox]:checked {
+  
+    padding-top: 0.5vw;
+  }
+
+input[type=checkbox]:checked:after {
+  
+  width: 1vw; /*the ✔ sign length */
+  height: 2vw;    /*the ✔ sign length */
+  border: solid white;
+  border-width: 0 0.5vw 0.5vw 0; /*the ✔ sign weight */
+  /* padding-top: 0.2vw; */
+
+ 
+
+}
+
+.a:visited{
+  text-decoration: none;
+}
+
+.a:visited{
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+  .Download{
+    margin-top: 5vw;
+    width: 50vw;
+    height: 8vw;
+    border-radius: 2vw;
+    /* font-size: 2vw;
+     */
+  }
+
+
+.Download>p{
+  font-size: 3vw;
+}
+
+#download-size{
+  font-size: 2vw;
+}
 
   
 }
