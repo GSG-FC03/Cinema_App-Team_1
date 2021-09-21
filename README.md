@@ -27,8 +27,8 @@ The code is required to work on iphone x (375px width) devices and to be respons
 5. The team conducted a retrospective meeting and merged accepted and reviewed pages.
 6. The team then refined CSS Design again to be responsive to desktop.
 
-
-
+## Live Link
+https://gsg-fc03.github.io/Cinema_App-Team_1/
 
 
 > @Team-1
